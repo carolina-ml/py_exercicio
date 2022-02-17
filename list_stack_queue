@@ -1,4 +1,4 @@
-# percorrer uma lista em forma de pilha (for each) e em forma de fila
+# percorrer uma lista em forma de pilha (for each)
 
 bringmedisc = ['amo', 'Sempiternal', "There Is A Hell, Believe Me I've Seen It. There Is A Heaven, Let's Keep It A Secret", "That's The Spirit"]
 for i in bringmedisc:
@@ -7,3 +7,20 @@ for i in bringmedisc:
         print(bringmedisc)
     else:
         print('oli sycks')
+        
+# percorrer uma lista em forma de fila - FIFO - First in Firt Out
+
+queue = []
+
+queue.append('Starboy')
+queue.append('After Hours')
+queue.append('Dawn FM')
+
+print(queue.pop(0))
+
+# while True:
+#    try:
+#        print(queue.pop(0))
+#   except queue.Empty:  
+#        break
+# for item in discTheWeeknd: print(item)
