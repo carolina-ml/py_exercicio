@@ -18,9 +18,12 @@ queue.append('Dawn FM')
 
 print(queue.pop(0))
 
-# while True:
-#    try:
-#        print(queue.pop(0))
-#   except queue.Empty:  
-#        break
-# for item in discTheWeeknd: print(item)
+# implementando um for each
+
+while True:
+    try:
+        print(queue.pop(0))
+    except IndexError: 
+        break
+    for item in queue: 
+        print(item)
